@@ -3,8 +3,10 @@ using namespace std;
 int main() {
 	setlocale(LC_ALL, "rus");
 	// 1.
-	/*bool health;
+	/*int z;
+	bool health;
 	cin >> health;
+	z = health > 0;
 	cout << boolalpha << health << endl;*/
 	// 2.
 	/*int  t;
@@ -16,7 +18,7 @@ int main() {
 		cout << "Off" << endl;
 	}*/
 	// 3.
-	//int t, c, v; // t -  температура, c - температура в комнате.
+	//int t, c, v; // t -  температура, c - температура в комнате
 	//cin >> t >> c >> v;
 	//if (c > t&& v <= 80) {
 	//	cout << "On" << endl;
@@ -40,7 +42,7 @@ int main() {
 		cout << y << endl;
 	}*/
 	// 5.
-	int палец;
+	/*int палец;
 	cin >> палец;
 	switch (палец) {
 	case 1: cout << "Большой" << endl; break;
@@ -49,5 +51,5 @@ int main() {
 	case 4: cout << "Безымяный" << endl; break;
 	case 5: cout << "Мизинец" << endl; break;
 	default: cout << "Ошибка" << endl;
-	}
+	}*/
 }
